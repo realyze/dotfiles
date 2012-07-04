@@ -1,0 +1,22 @@
+[ui]
+username=tomas.brambora
+
+[web]
+# This gets rid of the annoying certification failed warnings.
+cacerts = /etc/hg-dummy-cert.pem
+
+[extensions]
+graphlog=
+workflow=~/Dropbox/source/hg_plugin/
+mercurial_keyring=
+color=
+
+[alias]
+nudge = push --rev .
+
+[paths]
+salsita = https://dev.salsitasoft.com/rc
+
+[auth]
+salsita.schemes = https
+salsita.username = tomas.brambora
